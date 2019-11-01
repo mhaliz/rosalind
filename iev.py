@@ -43,7 +43,7 @@ def offspring_calculator(file):
         if i == 5:
             break
 
-    # calculate and print total offspring, assuming each couple as two kids
+    # calculate and print total offspring, assuming each couple has two kids
     offspring = sum(chances) * 2
     print(offspring)
 
